@@ -5,15 +5,12 @@ Author.destroy_all
 
     Quote.create(
         content:"The journey of a thousand miles begins with one step."
-        author_id:1
     )
     Quote.create(
         content:"That which does not kill us makes us stronger."
-        author_id:2
         ) 
     Quote.create(
         content:"LIFE is what happens when you're busy making other plans."
-        author_id:1
         )
     Quote.create(
         content:"When the going gets tough, the tough get going."
