@@ -1,4 +1,4 @@
-require 'pry'
+
 puts "🌱 Seeding quotes..."
 Quote.destroy_all
 Author.destroy_all
@@ -130,6 +130,6 @@ Author.destroy_all
      Quote.create(
         content:"It’s not about better time management. It's about better life management"
     ) 
-binding.pry
+
 
 puts "✅ Done seeding!"
