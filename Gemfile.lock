@@ -77,7 +77,6 @@ GEM
     sinatra-activerecord (2.0.25)
       activerecord (>= 4.1)
       sinatra (>= 1.0)
-    sqlite3 (1.4.4)
     tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -102,7 +101,6 @@ DEPENDENCIES
   rspec-json_expectations (~> 2.2)
   sinatra (~> 2.1)
   sinatra-activerecord (~> 2.0)
-  sqlite3 (~> 1.4)
 
 BUNDLED WITH
    2.3.15
