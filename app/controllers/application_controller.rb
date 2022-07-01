@@ -16,7 +16,7 @@ class ApplicationController < Sinatra::Base
     newQuote.to_json
   end
   get "/allquotes" do
-   quote=Quote.find_by({id:2},{id:3})
+   quote=Quote.all
     quote.to_json
   end
   patch "/quotes/:id" do
